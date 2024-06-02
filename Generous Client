@@ -1,0 +1,6 @@
+#Today 02.06.2024 I started on github. Wonder what my progress will be in 3 months in September? So...let's get it started!
+#First programms should be very simple and easy. And the first one is - Generous Client
+bill = int(input("Enter the price of the course: ")
+tips15 = bill * 0.15
+tips20 = bill * 0.20
+print("\nTips 15% will be: ", tips15, "Tips 20% will be: ", tips20)
