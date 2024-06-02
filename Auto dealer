@@ -1,0 +1,9 @@
+#Second programm a bit more difficult.
+#Auto dealer. Programm counts all the expenses.
+car_price = int(input("\nInput your car price :"))
+tax = car_price * 0.1
+registry = car_price * 0.1
+agent_tax = 1500
+delivery = 2000
+total = car_price + tax + registry + agent_tax + delivery
+print ("\nTotal cost of your car is :", total, "Have a nice day!")
