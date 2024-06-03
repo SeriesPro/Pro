@@ -1,0 +1,10 @@
+#This file is - Bubble sorting method. Let me remember...
+
+a = [-15, -50, -9, 5, 14, 6, 89]
+n = len(a)
+for i in range (n-1):
+  for k in range (n-1-i):
+    if a[k] > a[k+1]:
+       a[k], a[k+1] = a[k+1], a[k]
+
+print("\nYour sequence: ", (a))
