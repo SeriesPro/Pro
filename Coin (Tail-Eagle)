@@ -1,0 +1,16 @@
+# Coin. Throwing a coin and count Tails and Eagles
+
+import random
+
+tail = 0
+eagle = 0
+throws = 100
+while throws != 0:
+    i = random.randint(1, 2)
+    if i == 1:
+        tail += 1
+    else:
+        eagle += 1
+    throws -= 1
+    
+print("\nTails = ", tail, "\nEagles = ", eagle)
